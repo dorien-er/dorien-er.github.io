@@ -145,7 +145,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25em;
+		font-size: 3em;
 		line-height: 1.35em;
 	}
 
@@ -2927,31 +2927,36 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: linear-gradient(#28615a, #000000);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-color: #ffffff;
+		color: #32505C;
+		background-attachment: fixed;
+		background-image: url("../../images/header.jpg");
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+		background-position: top ;
+		background-size: cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+
 	}
 
 		#header a {
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: #32505C;
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #32505C;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #ffffff;
+			color: #32505C;
 		}
 
 		#header header p {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#header header.major:after {
@@ -3011,7 +3016,7 @@ input, select, textarea {
 				}
 
 		#header ul.major-icons li .icon {
-			border-color: #ffffff;
+			border-color: #000000;
 		}
 
 		#header .icon.major {
@@ -3089,7 +3094,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(#4fa49a, #000000);
+			background-image: linear-gradient(#32505C, #32505C);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3126,7 +3131,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: linear-gradient(#2f746c, #000000);
+		background-image: linear-gradient(#32505C, #32505C);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
