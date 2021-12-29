@@ -29,6 +29,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+header {
+  background: url(images/header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -2840,7 +2849,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
 			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			background-size: auto,							100%;
 		}
 
 			.main.style2 a {
@@ -2933,7 +2942,8 @@ input, select, textarea {
     min-width:100%;
     min-height: 100%;
 		background-position: center;
-		background-size: 100% 100%;
+    background-repeat: no-repeat;
+		background-size: auto 100%;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
