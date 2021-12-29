@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #122c29;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2916,7 +2916,7 @@ input, select, textarea {
 					}
 
 			.main.style2 ul.major-icons li .icon {
-				border-color: #ffffff;
+				border-color: #122c29;
 			}
 
 			.main.style2 .icon.major {
@@ -2926,11 +2926,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
-		background-color: #ffffff;
+		padding: 9em 0 15em 0 ;
 		color: #32505C;
 		background-attachment: fixed;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/header1.jpg");
     top:0px;
     left:0px;
     width: 100%;
@@ -3094,7 +3093,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(#32505C, #32505C);
+			background-image: url("../../images/header1.jpg");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3127,11 +3126,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		padding: 0.5em 0 1em 0 ;
+		background-color: #122c29;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: linear-gradient(#32505C, #32505C);
+		background-image: linear-gradient(#122c29, #122c29);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
