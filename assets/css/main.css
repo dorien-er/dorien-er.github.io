@@ -2933,8 +2933,7 @@ input, select, textarea {
     min-width:100%;
     min-height: 100%;
 		background-position: center;
-
-		background-size: cover;
+		background-size: 100% 100%;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
