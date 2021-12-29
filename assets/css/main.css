@@ -3093,7 +3093,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: url("../../images/header1.jpg");
+			background-image: url("../../images/header.jpg");
 			content: '';
 			height: 100%;
 			left: 0;
