@@ -3126,7 +3126,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 0.5em 0 1em 0 ;
+		padding: 0.3em 0 1em 0 ;
 		background-color: #122c29;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
