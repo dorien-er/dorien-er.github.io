@@ -2926,7 +2926,6 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 9em 0 23em 0 ;
 		color: #32505C;
 		background-attachment: fixed;
 		background-image: url("../../images/header.jpg");
